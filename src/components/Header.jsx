@@ -32,6 +32,7 @@ export default function Header() {
   const [caption, setCaption] = useState('');
   const filePickerRef = useRef(null);
   const db = getFirestore(app);
+  
   function addImageToPost(e) {
     const file = e.target.files[0];
     if (file) {
@@ -103,7 +104,7 @@ export default function Header() {
 
         <Link href='/' className='lg:hidden'>
           <Image
-            src='/800px-Instagram_logo_2016(1).webp'
+            src='/800px-Instagram_logo_2016 (1).webp'
             width={40}
             height={40}
             alt='instagram logo'

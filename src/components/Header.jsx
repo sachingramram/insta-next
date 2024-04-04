@@ -187,7 +187,7 @@ export default function Header() {
               !selectedFile ||
               caption.trim() === '' ||
               postUploading ||
-              imageFileUploading
+              imageFileUploading 
             }
             className='w-full bg-red-600 text-white p-2 shadow-md rounded-lg hover:brightness-105 disabled:bg-gray-200 disabled:cursor-not-allowed disabled:hover:brightness-100'
           >
